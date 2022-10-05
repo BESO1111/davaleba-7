@@ -1,0 +1,597 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color:#ffffff;
+}
+header h1{
+    font-size: 20px;
+    width: 82px;
+    height: 30px;
+    color:rgba(0, 0, 0, 1) ;
+    margin-left: 80px;
+   /* margin-right: 390px; */
+   padding-right: 220px;
+}
+header{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 58px;
+width: 100%;
+font-family: 'Poppins', sans-serif;
+
+}
+
+header li{
+    display: inline;
+    margin-left: 68px;
+   }
+header li a{
+padding: 5px 10px;
+background-color: #fffbfb;
+border-radius: 20px;
+}
+
+
+header li .before2{
+    font-weight:bold;
+    position: relative;
+}
+
+
+
+header li .before2:before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+   left: 24px;
+ 
+}
+header li .before3{
+    font-weight:bold;
+    position: relative;
+}
+
+
+
+header li .before3:before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+   left: 34px;
+ 
+}
+
+header li .before4{
+    font-weight:bold;
+    position: relative;
+}
+
+
+
+header li .before4:before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+   left: 32px;
+ 
+}
+
+header li .before5{
+    font-weight:bold;
+    position: relative;
+}
+
+
+
+header li .before5:before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+   left: 35px;
+ 
+}
+
+
+
+
+
+.name{
+    width: 180px;
+    height: 60px;
+    background-color: rgba(253, 199, 45, 1);
+    border-radius: 60px;
+}
+header div img{
+margin:0px 100px 0px 84px;
+}
+
+div img{
+    width: 32px;
+    height: 20px;
+}
+
+header .name{
+
+margin-right: 88px;
+}
+.name p{
+font-size:20px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+padding-top: 16px;
+}
+
+article{
+
+    width:466px;
+    height: 306px;
+    background-color:#ffffff;
+    margin-top: 190px;
+    margin-left: 80px;
+}
+
+article .pepe{
+
+    font-size: 60px;
+    text-align: left;   
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section div p{
+    font-size: 20px;
+    color: rgba(119, 119, 118, 1);
+    padding-top: 36px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.getstardet{
+    width:180px ;
+    height: 60px;
+background-color: rgba(253, 199, 45, 1);
+border-radius: 60px;
+text-align: center;
+padding-top: 20px;
+margin-left: 80px;
+}
+.getstardet p{
+    font-size: 20px;
+}
+
+.img img{
+position: absolute;
+left: 540px;
+top:150px;
+width: 970px;
+height: 722px;
+}
+
+
+footer{
+    background-color: rgba(254, 227, 149, 1);
+    width:100%;
+    height: 450px;
+    padding-top: 112px;
+   
+    display: flex;
+    justify-content: space-between;
+    padding-left: 112px;
+    margin-top: 100px;
+}
+
+footer .div4 .footer2{
+    font-size: 20px;
+   }
+footer .div1{
+margin-left: 110px;
+}
+
+footer .div1 .footer4{
+font-size: 20px;
+}
+
+
+footer .footer2{
+margin-bottom: 20px;
+}
+
+
+footer .div2{
+    margin-left: 185px;
+}
+
+footer .div2 .footer5{
+
+    font-size: 20px;
+}
+
+
+footer .footer4{
+    margin-bottom: 20px;
+}
+
+footer .footer5{
+    margin-bottom: 20px;
+}
+footer .footer6{    
+    margin-bottom: 20px;
+}
+    
+footer .div3 .footer6{
+    font-size: 20px;
+}
+footer .div3{
+    margin-left: 76px;
+}
+.footer1 img{
+    width: 160px;
+    height: 28px;
+    margin-right: 210px;
+    margin-left: 112px;
+}
+
+footer .c{
+    position: absolute;
+margin-top: 250px;
+margin-left: 512px;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+/*  --------------------- about .................... */
+
+
+.flex{
+display: flex;
+
+
+
+
+}
+    
+
+.aboutt1 img{
+
+    width: 676px;
+    height: 506px;
+    margin-top: 130px;
+    margin-left: 78px;
+}
+
+
+
+.aboutt2{
+    margin-left: 770px;
+    margin-top: -560px;
+}
+
+.aboutt2 article h2{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.aboutt2  section div p{
+
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+    padding-top: 30px;
+    width: 510px;
+}
+
+
+
+.aboutt3{
+
+    margin-top: 288px;
+}
+
+.aboutt3 article h2{
+font-size: 40px;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+.aboutt3  section div p{
+
+font-size: 20px;
+width: 502px;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.aboutt4{
+
+margin-left: 600px;
+margin-top: -350px;
+
+}
+
+.aboutt4 img{
+width: 746px;
+height: 492px;
+
+}
+
+
+/* -------------------  services  -----------------  */
+
+
+
+
+
+
+.pp{
+    margin-top: 96px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -108px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.service1{
+
+width: 380px;
+height: 380px;
+padding-top: 56px;
+}
+
+.service1:hover{
+
+    box-shadow: 0px 0px 15px rgba(38, 50, 56, 1);
+    border-radius: 15px;
+
+}
+
+
+
+
+.service1 .were{
+  
+font-size: 20px;
+margin-left: 132px;
+margin-bottom: 30px;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.service1 img{
+
+width: 202px;
+height: 120px;
+margin-left: 86px;
+}
+
+
+.service1 p{
+    font-size: 15px;
+    margin-top: -18px;
+width: 230px;
+text-align: center;
+margin-left: 68px;
+}
+
+
+
+.service1 h3{
+font-size: 15px;
+margin-left:142px;
+margin-top: 24px;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.service1 .weree{
+    margin-left: 90px;
+    margin-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.service1 .wereee{
+ margin-left: 114px;
+ margin-bottom: 18px;
+ font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.services2{
+
+    margin-top: 160px;
+    margin-left: 86px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.services2 img{
+
+    width: 542px;
+    height: 498px;
+}
+
+
+
+.services3{
+
+    width: 510px;
+    height: 250px;
+background-color: rgb(255, 255, 255);
+padding: 2px 0px;
+margin-left: 800px;
+margin-top: -420px;
+position: absolute;
+
+}
+.services3 .p1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 28px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.services3 p{
+    line-height: -15px;
+    font-size: 20px;
+    color: rgba(119, 119, 118, 1);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.patara p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    margin-top:-28px;
+    margin-left: 30px;
+}
+
+.patara img{
+
+    width: 22px;
+    height: 26px;
+    margin-left: -130px;
+    margin-top: 18px;}
+.patara{
+
+    width: 204px;
+    height: 60px;
+    background-color: rgba(253, 199, 45, 1);
+    border-radius: 60px;
+    text-align: center;
+    margin-right: 40px;
+ 
+}
+
+.didi{
+    display: flex;
+    position: absolute;
+    top:1288px;
+    left:800px;
+   
+}
+
+/* ------------------------ contact us --------------------- */
+
+
+.contact{
+
+    width: 506px;
+    height: 244px;
+    /* background-color: aquamarine; */
+    margin: 130px 0px 0px 80px;
+}
+.contact h4{
+    font-size:40px;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 2px;
+ 
+   
+}
+.contact p{
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+
+.contact1{
+
+width: 280px;
+height: 140px;
+/* background-color: aqua; */
+margin-left: 710px;
+margin-bottom: 150px;
+margin-top: -240px;
+
+}
+
+.contact1 p{
+color: rgba(119, 119, 118, 1);
+    font-size: 20px;
+    padding: 12px 22px;
+
+}
+
+.contact1 .contact2::before{
+content: "Telephone :";
+color: rgba(0, 0, 0, 1);
+
+
+}
+.contact1 .contact3::before{
+content: " Email:";
+color:rgba(0, 0, 0, 1) ;
+
+}
+
+
+.contact1 .contact4::before{
+content: " Location: ";
+color: rgba(0, 0, 0, 1) ;
+
+}
+
+
+
+.contact5{
+    width: 180px;
+    height: 60px;
+    background-color: rgba(253, 199, 45, 1);
+    border-radius: 60px;
+    text-align: center;
+  padding: 18px 0px;
+  margin-left: 1200px;
+  margin-top: -260px;
+  margin-bottom: 230px;
+}
+
+.contact5 p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+
+
+}
